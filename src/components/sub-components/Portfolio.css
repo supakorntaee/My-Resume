@@ -1,0 +1,15 @@
+.my-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects-box {
+    width: 350px;
+    height: 270px;
+}
+
+.project-image {
+    width: 290px;
+    height: 165px;
+}
