@@ -5,10 +5,10 @@ function Navbar() {
     <nav className='navbar'>
         <h2 className='my-name-web-logo'>Supakorn</h2>
         <ul className='nav-links'>
-            <li>About</li>
-            <li>Passions</li>
-            <li>Portfolio</li>
-            <li>Contact Me</li>
+            <a href='#'>About</a>
+            <a href='#'>Passions</a>
+            <a href='#'>Portfolio</a>
+            <a href='#'><span className='contact-me-button'>Contact Me</span></a>
         </ul>
     </nav>
   )

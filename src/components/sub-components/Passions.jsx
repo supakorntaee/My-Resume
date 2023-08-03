@@ -5,21 +5,21 @@ function Passions() {
   return (
     <div className='my-passions'>
         <div className='passion-box'>
-            <img className="passion-image" src="" alt="" />
-            <p className='first-passion-header'><span>Front-End</span> Developer</p>
-            <p className='first-passion-description'>(React, Tailwind)</p>
+            <img className="passion-image" src=".\src\assets\FrontEndpic.svg" alt="" />
+            <p className='passion-header'><span className='front-end'>Front-End</span> Developer</p>
+            <p className='passion-description'>(React, Tailwind)</p>
         </div>
 
         <div className='passion-box'>
-        <img className="passion-image" src="" alt="" />
-            <p className='second-passion-header'><span>Back-End</span> Developer</p>
-            <p className='second-passion-description'>(NodeJS, Lavarel)</p>
+        <img className="passion-image" src=".\src\assets\BackEndPic.svg" alt="" />
+            <p className='passion-header'><span className='back-end'>Back-End</span> Developer</p>
+            <p className='passion-description'>(NodeJS, Lavarel)</p>
         </div>
 
         <div className='passion-box'>
-        <img className="passion-image" src="" alt="" />
-            <p className='third-passion-header'><span>UI/UX</span> Designer</p>
-            <p className='third-passion-description'>(Figma)</p>
+        <img className="passion-image" src=".\src\assets\UIUX.svg" alt="" />
+            <p className='passion-header'><span className='ui-ux'>UI/UX</span> Designer</p>
+            <p className='passion-description'>(Figma)</p>
         </div>
     </div>
   )

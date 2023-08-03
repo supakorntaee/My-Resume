@@ -6,9 +6,9 @@ function About() {
     <div className="about-me">
       <div className="text"> 
         <div className="greeting">Hi !</div>
-        <h2 className="introduce-myself">I'm Supakorn Imjai. a Front-End Developer</h2>
+        <h2 className="introduce-myself">I'm Supakorn Imjai.  Front-End Developer</h2>
         <p className="details">
-          Front-End developer based in Bangkok, Thailand I’am coding with a clean and beautiful
+          Front-End developer based in Bangkok, Thailand I am coding with a clean and beautiful
           problem solving in mind.
         </p>
       </div>

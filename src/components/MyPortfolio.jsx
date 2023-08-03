@@ -5,7 +5,7 @@ import Portfolio from './sub-components/Portfolio'
 function MyPortfolio() {
   return (
     <div className='my-portfolio'>
-        <h3 className='my-portfolio-header'>My <span>Portfolio</span></h3>
+        <h3 className='my-portfolio-header'>My Portfolio</h3>
 
     <Portfolio />
     </div>
