@@ -1,0 +1,71 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.my-contact {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  width: 170px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.github {
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instagram {
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.email {
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.call {
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-platform {
+  color: #3f3d56;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.925px;
+  margin-top: 5%;
+}
+
+
+.contact-container a {
+  text-decoration: none;
+}
